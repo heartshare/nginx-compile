@@ -4,7 +4,8 @@ pipeline {
     stage('Step1') {
       steps {
         sh '''pwd
-whoami'''
+whoami
+ls'''
       }
     }
   }
